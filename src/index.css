@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    background: linear-gradient(135deg, #0f172a, #1e293b, #020617);
+    color: theme(colors.slate.100);
+    font-family: theme(fontFamily.sans);
+    scroll-behavior: smooth;
+  }
+}
